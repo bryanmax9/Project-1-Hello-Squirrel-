@@ -2,15 +2,15 @@
 
 # AND101 Project 1 - Hello, Squirrel!
 
-Submitted by: **Your Name Here**
+Submitted by: **Bryan Tineo**
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Summary
 
-**Name of your app** is an android app that recreates the common "Hello, World!", to introduce ourselves to the neighborhood squirrel 🐿.  **Change or add to this description**
+**Bryan's Computer Science Bio** is an android app that recreates the common "Hello, World!", to introduce ourselves to the neighborhood squirrel 🐿.  **This App shows my abilities on Android Studio as well as on Kotlin. Also, it showcases my hobbies and a brief explanation about myself**
 
-If I had to describe this project in three (3) emojis, they would be: **emojis here**
+If I had to describe this project in three (3) emojis, they would be: **🧑‍💻👻🎸**
 
 ## Application Features
 
@@ -18,14 +18,14 @@ If I had to describe this project in three (3) emojis, they would be: **emojis h
 
 The following REQUIRED features are completed:
 
-- [ ] Change profile name to your name
-- [ ] Change profile bio text to a personal bio about yourself
-- [ ] Modify hobby section to include your top three (3) hobbies
+- [X] Change profile name to your name
+- [X] Change profile bio text to a personal bio about yourself
+- [X] Modify hobby section to include your top three (3) hobbies
 
 The following STRETCH features are implemented:
 
-- [ ] Re-brand the app by modifying the UI
-- [ ] Modify the profile image by uploading a new image drawable
+- [X] Re-brand the app by modifying the UI
+- [X] Modify the profile image by uploading a new image drawable
 
 The following EXTRA features are implemented:
 
@@ -35,9 +35,9 @@ The following EXTRA features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='http://i.imgur.com/e3VzlGN.gif' title='Video Demo' width='' alt='Video Demo' />
 
-GIF created with **your chosen GIF tool**
+GIF created with **[ScreenToGif](https://www.screentogif.com/)**
 
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
@@ -47,10 +47,12 @@ GIF created with **your chosen GIF tool**
 ## Notes
 
 Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
+- For the creation Process, I had to learn the Kotlin programming language on CodeAcademy in order to than make changes to the overall project. In order to implement the bio Photo I had to add the photo to the "res > drawable directory" to than programmatically add that image on the file named "MainActivity.kt"(in order to find the file i hod to do double shift and search the file). Once on "MainActivity.kt", I changed the code block of the function "configureImage" and select the correct image i uploaded. For the **Theme** I used the "colors.xml" that was already created, and also by creating a file named "styles.xml" on "main > res > values" where i added my theme for the app. Than in order to set the theme i had to use the file named "AndroidManifest.xml" and change to this "android:theme="@style/BryanTheme" inside the <application>.
+
 
 ## License
 
-Copyright **yyyy** **your name**
+Copyright **2024** **Bryan Tineo**
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
